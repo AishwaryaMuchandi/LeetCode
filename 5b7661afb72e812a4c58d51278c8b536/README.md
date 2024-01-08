@@ -22,9 +22,13 @@ Example 3:
 Input: s = "(]"
 Output: false
 
-SOLUTION:
+# SOLUTION:
+**Stack + HashMap**
+**Edge cases handled: if s="}]". closing brackets only present.**
 
-Stack + HashMap
-Edge cases handled: if s="}]". closing brackets only present.
-Complexity: O(n) where n = length of string.
+# Complexity: 
+**Time Complexity:**
+**O(n) where n = length of string.**
 
+**Space Complexity:**
+**O(n) where n = length of string.**
